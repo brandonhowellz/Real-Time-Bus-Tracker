@@ -94,7 +94,7 @@ function initMap() {
 
 function fetchBusData(map) {
     const mbtaApiKey = '';
-    const mbtaApiUrl = `https://api.wmata.com/Bus.svc/json/jBusPositions?api_key=f4969b3ddf00476896f2e2b066e5d54b`;
+    const mbtaApiUrl = `https://api.wmata.com/Bus.svc/json/jBusPositions?api_key=`;
 
     fetch(mbtaApiUrl)
         .then(response => response.json())
